@@ -1,9 +1,9 @@
-package ru.dokwork.example.monad
+package example
 
 import cats.Monad
 import cats.implicits._
 
-class TransferService[M[_], Transaction](repo: AccountRepo[M]) {
+class TransferService[M[_]](repo: AccountRepo[M]) {
 
   // Обратите внимание на то, что реализация описывает только правила бизнес логики,
   // при этом нюансы реализации (транзакция) никак не фигурирую здесь.

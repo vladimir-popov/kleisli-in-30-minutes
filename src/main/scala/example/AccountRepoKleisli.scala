@@ -1,9 +1,6 @@
-package ru.dokwork.example.monad
+package example
 
 import cats.data.Kleisli
-import ru.dokwork.example.Account
-
-import scala.concurrent.Future
 
 // ({ type G[T] = Kleisli[M, Transaction, T] })#G - способ привести тип, вида F[_, _, _] к виду G[_]
 class AccountRepoKleisli[M[_], Transaction](repo: AccountRepoTx[M, Transaction])

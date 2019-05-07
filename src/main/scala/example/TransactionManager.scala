@@ -1,7 +1,7 @@
-package ru.dokwork.example.monad
+package example
 
-import cats.MonadError
 import cats.implicits._
+import cats.MonadError
 
 import scala.util.control.NonFatal
 

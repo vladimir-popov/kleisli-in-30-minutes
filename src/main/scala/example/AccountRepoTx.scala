@@ -1,6 +1,4 @@
-package ru.dokwork.example.monad
-
-import ru.dokwork.example.Account
+package example
 
 /**
   * Интерфейс более частной реализации репозитория с поддержкой транзакций.

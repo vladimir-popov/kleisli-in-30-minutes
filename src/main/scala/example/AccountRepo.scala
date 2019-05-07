@@ -1,6 +1,4 @@
-package ru.dokwork.example.monad
-
-import ru.dokwork.example.Account
+package example
 
 /**
   * Обобщенный интерфейс репозитория.
